@@ -1,0 +1,12 @@
+
+.admin .card-body1{
+  width: 100px;
+  
+}
+.admin .card1{
+  border: 1px solid rgb(144, 0, 255);
+}
+
+.admin .card1:hover{
+  background: #e2e2e2;
+}

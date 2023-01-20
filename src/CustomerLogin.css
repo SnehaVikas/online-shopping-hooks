@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+* > * {
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin: 0;
+
+}
+
+
+
+
+
+.App {
+
+height: 100vh;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+text-align: center;
+
+}
+
+
+
+.register1{
+
+max-width: 978px;
+
+width: 100vw;
+
+display:flex;
+
+border: 2px solid hsl(210, 6%, 81%);
+
+border-radius: 5px;
+
+/* box-shadow: 1px 3px 10px #e9ecef; */
+
+background-color: white;
+
+}
+
+
+
+#form1{
+
+max-width: 320px;
+
+width: 100vw;
+
+margin: 2em auto;
+
+}
+
+
+/* for border button */
+#form >  input, .btn1{
+
+border: 1px solid hsl(145, 11%, 79%);
+
+padding: .9em 1em;
+color: rgb(100, 100, 146);
+background-color: rgb(184, 188, 219);/*container name and password*/
+
+}
+
+
+
+ #h31 {
+
+  margin-left:"5%";
+
+  padding-top:"50px";
+
+} 
+
+#form > input:focus{
+
+outline: none;
+
+}
+
+
+
+#form > .btn1{
+
+background-color: hwb(224 37% 57%);
+
+color: #9b4238;
+
+font-size: 1em;
+
+cursor: pointer;
+
+}
+
+
+
+.flex{
+
+display: flex;
+
+gap: 1em;
+
+}
+
+
+
+.flex-col{
+
+flex-direction: column;
+
+}
+
+
+
+.register .col-2{
+
+margin: auto;
+
+padding: 3em 0;
+
+}
+
+
+
+@media screen and (min-width: 860px)  {
+
+.register .col-3 img{
+
+  display: initial;
+
+}
+
+}
+
+
+
+.bg-img1 {
+
+  /* The image used */
+
+  background-image: url("C:\Users\sansarwa\trainings\Module3\reactjs\online-shopping-hooks\public\Images\legcustomerlogin.jpg");
+
+
+
+  /* Control the height of the image */
+
+  min-height: 610px;
+
+  /* Center and scale the image nicely */
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  position: relative;
+
+  padding-top: 55px;
+  margin-top: 1px;
+ 
+}
+
+div.b2 {
+  text-align: left;
+  padding-top: 50px;
+  padding-right: 30px;
+  /* padding-bottom: 10px; */
+  padding-left: 30px;
+  color: #48505D;
+}
+.jumbotron1 {
+
+  padding: 3rem, 2rem;
+  color: #7a30c0;
+  justify-content: center;
+
+  width: 50%;
+
+  margin-left: 26%;
+
+  margin-bottom: 10%;
+
+  background-color: rgb(182 235 236 / 67%);
+  
+
+}

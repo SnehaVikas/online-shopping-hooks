@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*>* {
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin: 0;
+
+}
+
+.App {
+
+  height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  text-align: center;
+
+}
+
+
+
+.register {
+
+  max-width: 978px;
+
+  width: 100vw;
+
+  display: flex;
+
+  border: 2px solid hsl(210, 6%, 81%);
+
+  border-radius: 5px;
+
+
+
+  background-color: #756f68;
+
+}
+
+
+
+#form {
+
+  max-width: 320px;
+
+  width: 100vw;
+
+  margin: 2em auto;
+
+}
+
+
+/* border of password and name */
+#form>input,
+.btn {
+
+  border: 1px solid hsl(145, 11%, 79%);
+
+  padding: .9em 1em;
+color: #756f68;
+background-color: rgb(15,21,66);
+}
+
+
+
+#h3 {
+
+  margin-left: "5%";
+
+  padding-top: "50px";
+
+}
+
+#form>input:focus {
+
+  outline: none;
+
+}
+
+
+/*login button*/
+#form>.btn2 {
+
+  background-color: #4c4f5c;
+
+  color: #2da35e;
+
+  font-size: 1em;
+
+  cursor: pointer;
+
+}
+
+
+
+.flex {
+
+  display: flex;
+
+  gap: 1em;
+
+}
+
+.flex-col {
+
+  flex-direction: column;
+
+}
+
+.register .col-1 {
+
+  margin: auto;
+
+  padding: 3em 0;
+
+}
+
+
+
+@media screen and (min-width: 860px) {
+
+  .register .col-2 img {
+
+    display: initial;
+
+  }
+
+}
+
+
+.bg-img {
+
+  /* The image used */
+
+  background-image: url("C:\Users\sansarwa\trainings\Module3\reactjs\online-shopping-hooks\public\Images\Logo1.png");
+
+
+  /* Control the height of the image */
+
+  min-height: 609px;
+
+  /* Center and scale the image nicely */
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  position: relative;
+  padding-top: 55px;
+  margin-top: 1px;
+
+}
+
+div.b {
+  text-align: left;
+  padding-top: 50px;
+  padding-right: 30px;
+  /* padding-bottom: 10px; */
+  padding-left: 30px;
+  color: #48505d;
+}
+
+.jumbotron {
+
+  padding: 3rem, 2rem;
+  color: #4c4f5c;
+  justify-content: center;
+
+
+  width: 50%;
+
+  margin-left: 26%;
+
+  margin-bottom: 10%;
+
+
+
+  background-color: #fff9f1;
+
+
+
+}

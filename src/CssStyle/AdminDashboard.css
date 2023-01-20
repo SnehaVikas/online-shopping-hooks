@@ -1,0 +1,47 @@
+
+.admin .card-body1{
+  width: 100px;
+  margin: 10px;
+}
+.admin .card1{
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.admin .card1:hover{
+  background: #e2e2e2;
+  cursor: pointer;
+}
+/* .center1 {
+  text-align: center;
+  border: 10px ;
+  width: 100%;
+  background-color: rgb(6, 10, 10);
+}
+.h1, h1 {
+  font-size: 2.5rem;
+  color: aqua;
+}
+.h5, h5 {
+  font-size: 2.5rem;
+  color:#fff;
+}
+.btn-primary5 {
+  color: #fff;
+  background-color: #c6c7b2;
+  border-color: #007bff;
+  background-color: #c8bfa8
+} */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item {
+  background-color: #140d0d;
+  padding: 30px;
+  flex: 50%;
+  color:beige;
+}
